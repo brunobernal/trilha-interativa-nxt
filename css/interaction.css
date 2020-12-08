@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(26, 27, 39);
+    color: blanchedalmond;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    
+}
+
+p {
+    margin: 0%;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    float: left;
+    margin-right: 25px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.descArea{
+    box-shadow: 0 0 3px 3px #c8c8c8;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.videoArea {
+    position: relative;
+}
+
+.box1 {
+    width: 40px;
+    background-color: rgba(207, 50, 53, 0);
+    height: 20px;
+    position: absolute;
+    top: 283px;
+    left: 162px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.box2 {
+    position: absolute;
+    background-color: rgba(207, 50, 53, 0);
+    width: 55px;
+    height: 20px;
+    top: 283px;
+    left: 215px;
+    cursor: pointer;
+    z-index: 1000;
+
+}
+
+.box3 {
+    position: absolute;
+    background-color: rgba(207, 50, 53, 0);
+    width: 45px;
+    height: 20px;
+    top: 283px;
+    left: 280px;
+    cursor: pointer;
+    z-index: 1000;
+
+}
+
+.boxSaude {
+    position: absolute;
+    background-color: rgba(207, 50, 53, 0);
+    width: 150px;
+    height: 150px;
+    top: 320px;
+    left: 80px;
+    cursor: pointer;
+    z-index: 1000;
+
+}
+
+.profissional {
+    position: absolute;
+    display: inline-block;
+    color: black;
+    width: auto;
+    height: auto;
+    top: 350px;
+    left: 80px;
+    font-size: 40px !important;
+    cursor: pointer;
+    z-index: 1000;
+
+}
+
+.leigo {
+    position: absolute;
+    display: inline-block;
+    color: black;
+    width: auto;
+    height: auto;
+    top: 380px;
+    left: 400px;
+    font-size: 40px !important;
+    cursor: pointer;
+    z-index: 1000;
+
+}
+.leigo:hover, .simpatizante:hover, .profissional:hover {
+    color: blanchedalmond;
+
+}
+
+.simpatizante {
+    position: absolute;
+    display: inline-block;
+    color: black;
+    width: auto;
+    height: auto;
+    top: 350px;
+    left: 580px;
+    font-size: 40px !important;
+    cursor: pointer;
+    z-index: 1000;
+
+}
+
+
+.lightbox {
+    display: none;
+
+}
+
+.longBtns {
+    display: block;
+    
+}
